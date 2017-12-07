@@ -1,0 +1,5 @@
+USE tvshows;
+SELECT * FROM tvshows;
+INSERT INTO tvshows (title, network, created_at, updated_at) VALUES ('Silicon Valley','HBO', NOW(), NOW());
+DELETE FROM tvshows WHERE id=44;
+UPDATE tvshows SET network='Hulu' WHERE id=43;
